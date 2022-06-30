@@ -1,5 +1,5 @@
 const config = {
-  eventKey: "2022casj",
+  eventKey: "2022cmptx",
 };
 
 export default config;
