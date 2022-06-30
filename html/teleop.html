@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teleoperated Period</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script type="module" src="../src/teleop.js"></script>
+  </head>
+  <body id="tele-page">
+    <div class="container">
+      <div class="page tele">
+        <div class="tele top-row">
+          <button class="button quarter tele" id="tele-shots-high">
+            <span class="but-count" id="tele-shots-high-count">0</span>
+            <span class="but-name">Shots Made<br />High</span>
+            <span class="but-key">H</span>
+          </button>
+          <button class="button quarter tele" id="tele-shots-low">
+            <span class="but-count" id="tele-shots-low-count">0</span>
+            <span class="but-name">Shots Made<br />Low</span>
+            <span class="but-key">L</span>
+          </button>
+        </div>
+        <div class="tele bottom-row">
+          <button class="button quarter tele" id="tele-shots-miss">
+            <span class="but-count" id="tele-shots-miss-count">0</span>
+            <span class="but-name">Shots<br />Missed</span>
+            <span class="but-key">M</span>
+          </button>
+          <button class="button vertical-eigth tele" id="tele-undo">
+            <span class="but-count hide-count">0</span>
+            <span class="but-name">UNDO<br /></span>
+            <span class="but-key">U</span>
+          </button>
+          <button class="button vertical-eigth tele" id="tele-advance">
+            <span class="but-count hide-count">0</span>
+            <span class="but-name">Start<br />Climb</span>
+            <span class="but-key">A</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
