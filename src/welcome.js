@@ -9,6 +9,7 @@ window.addEventListener("load", (e) => {
   const advanceBut = document.getElementById("welcome-advance");
 
   let eventKey = config.eventKey;
+  console.log(eventKey);
 
   teamNumber.addEventListener("keyup", (e) => {
     validate();
